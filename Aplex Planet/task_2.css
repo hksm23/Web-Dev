@@ -1,0 +1,65 @@
+body {
+font-family: Arial;
+margin: 0;
+padding: 0;
+background:#f9f0f0;
+}
+
+.main-box {
+width: 80%;
+margin: 20px auto;
+background-color: rgba(192, 203, 244, 0.422);
+padding: 20px;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+padding: 2%;
+}
+
+.box {
+background: rgb(201, 235, 241);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(70, 96, 2, 0.758);
+}
+
+input, textarea {
+width: 100%;
+padding: 8px;
+margin: 5px 0 10px;
+}
+
+button {
+padding: 8px 15px;
+cursor: pointer;
+}
+
+.todo-input {
+display: flex;
+gap: 10px;
+}
+
+li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #f5f5f5;
+margin: 5px 0;
+padding: 8px;
+border-radius: 5px;
+}
+
+.delete-btn {
+background: red;
+color: white;
+border: none;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.delete-btn:hover {
+background: darkred;
+}
